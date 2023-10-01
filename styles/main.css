@@ -9,14 +9,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
  }
+
+ .navdivs{
+    /*border-style: solid;*/
+    /*border-color: red;*/
+    height: 35px;
+    width: 150px;
+    margin: 0 15px 0 15px;
+ }
+
  .nav-items{
     display: flex;
  }
  a{
     text-decoration: none;
+    
     font-family: Verdana, sans-serif;
     color: white;
     font-weight: bold;
     font-size: x-large;
  }
+ li {
+    list-style-type: none;
+    text-align: center
+  }
